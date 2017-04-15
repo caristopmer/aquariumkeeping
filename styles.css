@@ -5,7 +5,7 @@
 }*/
 
 body {
-  background-color: cyan;
+  background-color: #99e6ff;
   max-width: 1400px;
   width: 98%;
 }
@@ -22,11 +22,22 @@ header#headline h1 {
   position: relative;
   top: 45%;
   margin: auto;
-  width: 75%;
+  width: 80%;
   font-size: 36px;
   font-family: helvetica;
   font-style: italic;
   color: white;
+}
+
+.sectioninfo {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background-color: #2d74ff;
+  padding: 1% 10%;
+}
+
+#pickme em {
+  color: blue;
 }
 
 #content {
@@ -48,23 +59,29 @@ h1 {
 h2 {
   position: relative;
   margin: auto;
-  width: 28%;
+  width: 50%;
   font-style: italic;
   font-size: 36px;
+  font-family: arial;
   color: orange;
+}
+
+h3 {
+  font-style: italic;
 }
 
 table, th, td {
   border: 2px solid black;
   max-width: 100%;
+  color: orange;
 }
 
 td {
-  color: purple;
+  color: white;
 }
 
 em {
-  color: blue;
+  color: white;
 }
 
 strong {
@@ -77,6 +94,21 @@ a:link {
 
 a:visited {
   color: purple;
+}
+
+footer {
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 530px) {
+  header#headline h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 24px;
+  }
 }
 
 /*#scroll {
