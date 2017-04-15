@@ -1,9 +1,31 @@
 /*-- CSS Style Sheet --*/
 
-body {
-  background: cyan;
+* {
+  border: 1px solid red;
 }
 
-#headline {
-  background-image: 
+body {
+  background-color: cyan;
+}
+
+header#headline {
+  background-image: url(images/georgia.jpg);
+  background-size: 1400px 500px;
+  height: 500px;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+header#headline h1 {
+  position: relative;
+  top: 45%;
+  margin: auto;
+  width: 64%;
+  font-size: 36px;
+}
+
+.scroll {
+  margin: 500px 0px 0px 0px;
+  background-color: grey;
 }
