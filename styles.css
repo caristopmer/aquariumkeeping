@@ -1,31 +1,85 @@
 /*-- CSS Style Sheet --*/
 
-* {
+/** {
   border: 1px solid red;
-}
+}*/
 
 body {
   background-color: cyan;
+  max-width: 1400px;
+  width: 98%;
 }
 
 header#headline {
   background-image: url(images/georgia.jpg);
-  background-size: 1400px 500px;
-  height: 500px;
+  background-size: 100% 100%;
+  max-width: auto;
+  height: 200px;
   width: 100%;
-  position: fixed;
-  z-index: -1;
 }
 
 header#headline h1 {
   position: relative;
   top: 45%;
   margin: auto;
-  width: 64%;
+  width: 75%;
   font-size: 36px;
+  font-family: helvetica;
+  font-style: italic;
+  color: white;
 }
 
-.scroll {
+#content {
+  width: 98%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: helvetica;
+  font-style: italic;
+  color: orange;
+}
+
+h2 {
+  position: relative;
+  margin: auto;
+  width: 28%;
+  font-style: italic;
+  font-size: 36px;
+  color: orange;
+}
+
+table, th, td {
+  border: 2px solid black;
+  max-width: 100%;
+}
+
+td {
+  color: purple;
+}
+
+em {
+  color: blue;
+}
+
+strong {
+  color: red;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: purple;
+}
+
+/*#scroll {
   margin: 500px 0px 0px 0px;
   background-color: grey;
-}
+}*/
