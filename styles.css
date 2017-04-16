@@ -25,6 +25,7 @@ header#headline h1 {
   font-size: 36px;
   font-family: helvetica;
   font-style: italic;
+  text-align: center;
   color: white;
 }
 
@@ -33,6 +34,12 @@ header#headline h1 {
   margin-bottom: 10px;
   background-color: #2d74ff;
   padding: 1% 10%;
+}
+
+#pickmefish {
+  position: relative;
+  width: 35%;
+  margin: auto;
 }
 
 .pickme {
@@ -62,6 +69,7 @@ h2 {
   font-style: italic;
   font-size: 36px;
   font-family: arial;
+  text-align: center;
   color: orange;
 }
 
@@ -73,6 +81,8 @@ table, th, td {
   border: 2px solid black;
   max-width: 100%;
   color: orange;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 td {
@@ -98,15 +108,15 @@ a:visited {
 footer {
   position: relative;
   margin: auto;
-  width: 50%;
+  width: 35%;
 }
 
 @media screen and (max-width: 530px) {
-  header#headline h1 {
+  header#headline h1, h2 {
     font-size: 24px;
   }
-  h2 {
-    font-size: 24px;
+  p, li, table {
+    font-size: 12px;
   }
 }
 
