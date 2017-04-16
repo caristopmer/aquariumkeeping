@@ -36,7 +36,7 @@ header#headline h1 {
   padding: 1% 10%;
 }
 
-#pickme em {
+.pickme {
   color: blue;
 }
 
