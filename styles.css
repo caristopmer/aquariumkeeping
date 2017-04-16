@@ -1,5 +1,117 @@
 /*-- CSS Style Sheet --*/
 
+/** {
+  border: 1px solid red;
+}*/
+
 body {
-  background: cyan;
+  background-color: #99e6ff;
+  max-width: 1400px;
+  width: 98%;
 }
+
+header#headline {
+  background-image: url(images/georgia.jpg);
+  background-size: 100% 100%;
+  max-width: auto;
+  height: 200px;
+  width: 100%;
+}
+
+header#headline h1 {
+  position: relative;
+  top: 45%;
+  margin: auto;
+  width: 80%;
+  font-size: 36px;
+  font-family: helvetica;
+  font-style: italic;
+  color: white;
+}
+
+.sectioninfo {
+  border: 2px solid black;
+  margin-bottom: 10px;
+  background-color: #2d74ff;
+  padding: 1% 10%;
+}
+
+#pickme em {
+  color: blue;
+}
+
+#content {
+  width: 98%;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: helvetica;
+  font-style: italic;
+  color: orange;
+}
+
+h2 {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  font-style: italic;
+  font-size: 36px;
+  font-family: arial;
+  color: orange;
+}
+
+h3 {
+  font-style: italic;
+}
+
+table, th, td {
+  border: 2px solid black;
+  max-width: 100%;
+  color: orange;
+}
+
+td {
+  color: white;
+}
+
+em {
+  color: white;
+}
+
+strong {
+  color: red;
+}
+
+a:link {
+  color: orange;
+}
+
+a:visited {
+  color: purple;
+}
+
+footer {
+  position: relative;
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 530px) {
+  header#headline h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+}
+
+/*#scroll {
+  margin: 500px 0px 0px 0px;
+  background-color: grey;
+}*/
